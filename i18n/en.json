@@ -3,35 +3,37 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Developer's documentation of taskoo team",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "api": {
+        "title": "Web API Specification",
+        "sidebar_label": "Web API Specification"
       },
-      "doc2": {
+      "app-spec": {
         "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "doc4": {
-        "title": "Other Document"
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "mobile-web-spec": {
+        "title": "This is document number 3"
+      },
+      "web-spec": {
+        "title": "Latin-ish",
+        "sidebar_label": "Example Page"
       }
     },
     "links": {
-      "Docs": "Docs",
+      "Specification": "Specification",
       "API": "API",
       "Help": "Help",
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Web Spec": "Web Spec",
+      "Mobile Web Spec": "Mobile Web Spec",
+      "App Spec": "App Spec",
+      "Web API": "Web API"
     }
   },
   "pages-strings": {

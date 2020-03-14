@@ -23,8 +23,8 @@ const users = [
 
 const siteConfig = {
   customDocsPath: path.basename(__dirname) + '/docs',
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Taskoo Docs', // Title for your website.
+  tagline: 'Developer\'s documentation of taskoo team',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -33,15 +33,15 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'test-site',
-  organizationName: 'facebook',
+  organizationName: 'taskoo',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'web-spec', label: 'Specification'},
+    {doc: 'api', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
@@ -50,14 +50,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  // headerIcon: 'img/favicon.ico',
+  footerIcon: 'img/taskoo_icon.svg',
+  // favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#572881',
-    secondaryColor: '#3c1c5a',
+    primaryColor: '#4C45B2',
+    secondaryColor: '#6C63FF',
   },
 
   /* Custom fonts for website */
@@ -75,15 +75,21 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Taskoo developers`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+    '/js/code-block-buttons.js',
+  ],
+  stylesheets: ['/css/code-block-buttons.css'],
+  usePrism: ['json'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
