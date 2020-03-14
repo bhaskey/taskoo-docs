@@ -5,6 +5,11 @@
     "App Spec": ["app-spec"]
   },
   "api": {
-    "Web API": ["api"]
+    "Web API": [
+      "api", 
+      "browse-task-api", 
+      "task-details-api",
+      "offer-api",
+      "question-api"]
   }
 }

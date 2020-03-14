@@ -1,12 +1,10 @@
 ---
 id: api
-title: Web API Specification
-sidebar_label: Web API Specification
+title: Post Task
+sidebar_label: Post Task
 ---
 
-# Task APIs
-
-## Post Task
+## Post Task API
 
 ```json
 POST request to api_endpoint/tasks
@@ -79,3 +77,11 @@ POST request to api_endpoint/tasks
 > Note that task has `Location`, `User` & `Budget` Objects, please see their structures in tabs above.
 
 > The location object is captured form [Google Places API](https://developers.google.com/places/web-service/search#find-place-responses)
+
+## Constants
+
+|         name        |           values                    |
+| --- | --- |
+|      `taskType`       |   1 : `IN_PERSON` <br> 2 : `REMOTE`     |
+|      `dueTime`        |1 : `MORNING`<br>2 : `NOON`<br>3 : `AFTERNOON`<br>4 : `EVENING`|
+|      `budget.type`    |   1 : `TOTAL` <br> 2 : `TOTAL`        |

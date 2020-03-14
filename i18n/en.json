@@ -3,20 +3,36 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Developer's documentation of taskoo team",
+    "tagline": "Developer's documentation for and by taskoo team",
     "docs": {
       "api": {
-        "title": "Web API Specification",
-        "sidebar_label": "Web API Specification"
+        "title": "Post Task",
+        "sidebar_label": "Post Task"
       },
       "app-spec": {
         "title": "document number 2"
+      },
+      "browse-task-api": {
+        "title": "Browse Task APIs",
+        "sidebar_label": "Browse Task APIs"
       },
       "doc5": {
         "title": "Fifth Document"
       },
       "mobile-web-spec": {
         "title": "This is document number 3"
+      },
+      "offer-api": {
+        "title": "Offer APIs",
+        "sidebar_label": "Offer APIs"
+      },
+      "question-api": {
+        "title": "Question APIs",
+        "sidebar_label": "Question APIs"
+      },
+      "task-details-api": {
+        "title": "Task Details APIs",
+        "sidebar_label": "Task Details APIs"
       },
       "web-spec": {
         "title": "Latin-ish",

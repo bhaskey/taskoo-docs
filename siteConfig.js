@@ -23,8 +23,8 @@ const users = [
 
 const siteConfig = {
   customDocsPath: path.basename(__dirname) + '/docs',
-  title: 'Taskoo Docs', // Title for your website.
-  tagline: 'Developer\'s documentation of taskoo team',
+  title: 'taskoo docs', // Title for your website.
+  tagline: 'Developer\'s documentation for and by taskoo team',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -75,7 +75,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Taskoo developers`,
+  copyright: `Copyright © ${new Date().getFullYear()} taskoo developers`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -89,7 +89,7 @@ const siteConfig = {
     '/js/code-block-buttons.js',
   ],
   stylesheets: ['/css/code-block-buttons.css'],
-  usePrism: ['json'],
+  usePrism: ['jsx'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
